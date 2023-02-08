@@ -1,0 +1,136 @@
+/* author:AMAL A M */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/academy-banner.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.image {
+    text-align: end;
+    padding: 100px;
+}
+.font {
+    font-size: 70px;
+}
+.font1 {
+    font-weight: 700;
+}
+.font2 {
+    font-size: 20px;
+}
+.special {
+    min-height: 100vh;
+}
+.specialimage {
+    margin-top: 30px;
+}
+.specialvalue {
+    background-color: #000000;
+    color: #8bf5fa;
+    margin: -8.33%;
+    padding: 20px;
+}
+.specialvalue p::after {
+    content: "}";
+    color: #f806cc;
+}
+.specialvalue p::before {
+    content: "{";
+    color: #f806cc;
+}
+.specialvalue p {
+    font-size: 20px;
+}
+.course {
+    background-image: url("../images/modulebg.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 0;
+}
+
+.coursedeatils1 {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+.coursedeatils {
+    text-align: center;
+}
+.checking {
+    min-height: 100vh;
+}
+
+.img-main {
+    width: 100%;
+    margin: 0;
+}
+.img-left {
+    background-image: url("../images/testsbg.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+.img-right {
+    background-image: url("../images/intrvwbg.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+.left,
+.right {
+    background-color: #000000b3;
+    min-height: 60vh;
+    color: #ffffff;
+    padding: 100px;
+}
+.footer {
+    min-height: 100vh;
+}
+.footer1 {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 576px) {
+    .head {
+        background-image: none;
+        background-color: #ceccca;
+        min-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .image {
+        text-align: center;
+        padding: 0;
+    }
+    .font {
+        font-size: 50px;
+    }
+    .specialvalue,
+    .specialimage,
+    .specialimage1,
+    .special {
+        margin: 0;
+        padding: 0;
+    }
+    .specialvalue {
+        margin-top: 10px;
+    }
+    .special {
+        margin-top: 5px;
+    }
+    .footer2 {
+        margin-top: 20px;
+    }
+}
